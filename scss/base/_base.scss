@@ -1,0 +1,93 @@
+html,
+body {
+    font-family: "Muller", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--textBlack);
+    background: #f1f1f1;
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: var(--container);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+.title1 {
+}
+.title2 {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--title2);
+}
+.title3 {
+}
+
+// links ======================================
+
+.link {
+    &:hover {
+        color: var(--hoverColor);
+    }
+    &:focus {
+        color: var(--focusColor);
+        outline: 1px solid var(--focusColor);
+    }
+    &:active {
+        color: var(--activeColor);
+    }
+}
+.link_d {
+    &:hover {
+        color: var(--focusColorDefault);
+    }
+    &:focus {
+        outline: 1px solid var(--focusColorDefault);
+    }
+}
+.link_d:hover::before {
+    color: var(--focusColorDefault);
+}
+.link_d:focus::before {
+    // color: var(--focusColorDefault);
+    outline: 1px solid var(--focusColorDefault);
+}
+
+// buttons ==================================
+.button {
+    border: 1px solid var(--buttonColor);
+    border-radius: 10px;
+    color: var(--buttonColor);
+    &:hover {
+        background-color: var(--hoverColor);
+        color: var(--textWhite);
+    }
+    &:focus {
+        background-color: var(--focusColor);
+        color: var(--textWhite);
+    }
+    &:active {
+        background-color: var(--activeColor);
+        color: var(--textWhite);
+    }
+}
+.button_s {
+    padding: 13px 20px;
+}
+.button_m {
+    padding: 13px 30px;
+}
+.button_l {
+    padding: 27px 30px;
+}

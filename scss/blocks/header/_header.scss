@@ -1,0 +1,73 @@
+.header {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.header-wrap {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    margin-right: 40px;
+}
+.header__phone {
+}
+.header__phone-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+}
+.header__right {
+}
+.header__personal-account {
+}
+.header__personal-account-link {
+    position: relative;
+    color: #cc9933;
+}
+.header__personal-account-link::before {
+    content: url("/img/header/header-arrow.svg");
+    position: absolute;
+    top: 0;
+    left: -28px;
+    // &:hover {
+    //     color: var(--focusColorDefault);
+    // }
+}
+
+.header-nav-wrap {
+    padding: 14px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 15px;
+}
+.header-nav {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+}
+.header-nav__list {
+    display: flex;
+}
+
+.header-nav__item:not(:last-child) {
+    margin-right: 45px;
+}
+.header-nav__link {
+    color: #666666;
+}
+.header__order {
+}
+
+.header__button {
+}
+.header__button:not(:last-child) {
+    margin-right: 40px;
+}

@@ -1,0 +1,75 @@
+$container--laptop: 978px;
+$container--tablet: 768px;
+$container--mobile: 308px;
+
+$breakpoint--4k: 1921px;
+$breakpoint--desktop: 1920px;
+$breakpoint--laptop: 1124px;
+$breakpoint--tablet: 769px;
+$breakpoint--mobile: 320px;
+
+$accent-color: #49a144;
+$textBlack: #000000;
+// $textWhite: #fff;
+// // $bg-footer: #262626;
+// // $btn-up: #59bd5a;
+// // // $bg-card-active: #979797;
+// // $bg-card-active: #757575;
+
+// // // $buttonWhite: #fff;
+// // // $buttonBlue: #275bec;
+// // // $bgBlue: #1e4776;
+// // $textGray: #626262;
+// // $textWhite: #fff;
+
+// // // $textBlue: #7e9ec9;
+
+// // $accent-color: #327430;
+// // // $accent-color-hover: #ff6a00;
+// // $accent-color-hover: #1e4776;
+// // $title2: #323232;
+// // $black-color: #323232;
+// // $black-color: #323252;
+//   --bg-footer: #262626;
+
+//   --bg-button: #262626;
+//   --btn-up: #59bd5a;
+//   --bg-card-active: #979797;
+//   --bg-card-active: #757575;
+//   --bg-white: #fff;
+//   --gray-line: rgba(117, 117, 117, 0.4);
+
+//   --white-line: #fff;
+
+//   --textBlack: #1d1d1d;
+
+//   --colorBlack: #1d1d1d;
+//   --textGray: #626262;
+//   --textWhite: #fff;
+
+:root {
+    --container--laptop: #{$container--laptop};
+    --container--tablet: #{$container--tablet};
+    --container--mobile: #{$container--mobile};
+
+    --breakpoint--4k: #{$breakpoint--4k};
+    --breakpoint--desktop: #{$breakpoint--desktop};
+    --breakpoint--laptop: #{$breakpoint--laptop};
+    --breakpoint--tablet: #{$breakpoint--tablet};
+    --breakpoint--mobile: #{$breakpoint--mobile};
+    // --textBlack: #{$textBlack};
+    --textBlack: #000000;
+    --accent-color: #{$accent-color};
+    --container: 1200px;
+
+    // button states
+
+    --buttonColor: #cc9933;
+    --hoverColor: #cc9933;
+    --focusColor: #cc9933;
+    --focusColorDefault: #f0bf5f;
+    --activeColor: #a47312;
+    --textWhite: #fff;
+
+    --title2: #333333;
+}
