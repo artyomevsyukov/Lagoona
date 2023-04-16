@@ -1,0 +1,33 @@
+.services {
+    margin-bottom: 70px;
+}
+
+.services__title {
+    margin-bottom: 20px;
+}
+.services-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.services-card {
+}
+.services-card__img {
+    display: block;
+    border-radius: 15px 15px 0px 0px;
+}
+.services-card__wrap {
+    padding: 26px 126px 35px 45px;
+    background: #ffffff;
+    border-radius: 0px 0px 15px 15px;
+}
+.services-card__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #cc9933;
+}
+
+.services-card__desc {
+    line-height: 200%;
+}
