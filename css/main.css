@@ -189,6 +189,8 @@ body {
   font-size: 40px;
   line-height: 40px;
   color: var(--title2);
+  margin-left: 40px;
+  margin-bottom: 20px;
 }
 
 .link:hover {
@@ -449,11 +451,6 @@ body {
   margin-bottom: 70px;
 }
 
-.special__title {
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
-
 .special-cards {
   display: -ms-grid;
   display: grid;
@@ -604,5 +601,130 @@ body {
 
 .services-card__desc {
   line-height: 200%;
+}
+
+.benefits {
+  margin-bottom: 70px;
+}
+
+.benefits__title {
+  margin-bottom: 20px;
+}
+
+.benefits-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr 22px 1fr;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 22px;
+}
+
+.benefits-card {
+  padding: 40px 42px 32px 45px;
+  background: #ffffff;
+  border-radius: 15px;
+  -ms-grid-column-span: 3;
+  grid-column: span 3;
+}
+
+.benefits-card__img {
+  margin-bottom: 10px;
+}
+
+.benefits__desc {
+  line-height: 200%;
+}
+
+.placement {
+  margin-bottom: 70px;
+}
+
+.placement-cards {
+  display: -ms-grid;
+  display: grid;
+  gap: 24px;
+  -ms-grid-columns: 1fr 24px 1fr 24px 1fr 24px 1fr 24px 1fr 24px 1fr;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.placement-card {
+  -ms-grid-column-span: 2;
+  grid-column: span 2;
+}
+
+.placement-card__img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.placement-card__img_border {
+  border-radius: 15px;
+}
+
+.placement-card__wrap {
+  padding: 32px 45px 58px 45px;
+  border-radius: 0px 0px 15px 15px;
+  background-color: #fff;
+}
+
+.placement-card__price {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.placement-card__price_1 {
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.placement-card__price_2 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.placement-card__name {
+  margin-bottom: 16px;
+}
+
+.placement-card__city {
+  margin-bottom: 33px;
+  color: #999999;
+}
+
+.placement-card_all {
+  position: relative;
+}
+
+.placement-card__placement-all {
+  position: absolute;
+  z-index: 1;
+  left: 54px;
+  bottom: 27px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #ffffff;
+}
+.placement-card__placement-all::after {
+  content: url("/img/icons/arrow-w.png");
+  position: absolute;
+  -webkit-transform: translate(8px, 4px);
+          transform: translate(8px, 4px);
+}
+.placement-card__placement-all:hover::after {
+  content: url("/img/icons/arrow-b.jpg");
+}
+
+.placement-card:hover .link {
+  color: var(--focusColor);
+}
+
+.placement-card:hover .button {
+  background-color: var(--hoverColor);
+  color: var(--textWhite);
 }
 /*# sourceMappingURL=main.css.map */

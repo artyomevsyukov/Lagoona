@@ -1,0 +1,26 @@
+.benefits {
+    margin-bottom: 70px;
+}
+
+.benefits__title {
+    margin-bottom: 20px;
+}
+.benefits-cards {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    // grid-template-rows: 276px;
+    // grid-auto-flow: column dense;
+    gap: 22px;
+}
+.benefits-card {
+    padding: 40px 42px 32px 45px;
+    background: #ffffff;
+    border-radius: 15px;
+    grid-column: span 3;
+}
+.benefits-card__img {
+    margin-bottom: 10px;
+}
+.benefits__desc {
+    line-height: 200%;
+}
