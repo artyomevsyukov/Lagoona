@@ -3,19 +3,19 @@
 Версия: 1.0.3. */
 @font-face {
   font-family: "Muller";
-  src: url(/fonts/MullerRegular.woff) format("woff"), url(/fonts/MullerRegular.woff2) format("woff2");
+  src: url(/fonts/MullerRegular.woff2) format("woff2"), url(/fonts/MullerRegular.woff) format("woff");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Muller";
-  src: url(/fonts/MullerMedium.woff) format("woff"), url(/fonts/MullerMedium.woff2) format("woff2");
+  src: url(/fonts/MullerMedium.woff2) format("woff2"), url(/fonts/MullerMedium.woff) format("woff");
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
   font-family: "Muller";
-  src: url(/fonts/MullerBold.woff) format("woff"), url(/fonts/MullerBold.woff2) format("woff2");
+  src: url(/fonts/MullerBold.woff2) format("woff2"), url(/fonts/MullerBold.woff) format("woff");
   font-style: normal;
   font-weight: 700;
 }
