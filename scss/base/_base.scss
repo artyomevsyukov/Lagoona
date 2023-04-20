@@ -67,6 +67,23 @@ body {
     outline: 1px solid var(--focusColorDefault);
 }
 
+.link_dd {
+    color: var(--activeColor);
+    &:hover {
+        color: var(--activeColor);
+    }
+    &:focus {
+        outline: 1px solid var(--activeColor);
+    }
+}
+.link_dd:hover::before {
+    color: var(--activeColor);
+}
+.link_dd:focus::before {
+    // color: var(--focusColorDefault);
+    // outline: 1px solid var(--focusColorDefault);
+}
+
 // buttons ==================================
 .button {
     border: 1px solid var(--buttonColor);
