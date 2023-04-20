@@ -204,6 +204,9 @@ body {
   color: var(--activeColor);
 }
 
+.link_d {
+  color: #cc9933;
+}
 .link_d:hover {
   color: var(--focusColorDefault);
 }
@@ -341,11 +344,6 @@ body {
   margin-bottom: 70px;
 }
 
-.special__title {
-  margin-left: 40px;
-  margin-bottom: 20px;
-}
-
 .special-cards {
   display: -ms-grid;
   display: grid;
@@ -379,8 +377,6 @@ body {
 .special-card__1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: special-card__1;
   -ms-grid-column-span: 3;
   grid-column: span 3;
@@ -390,8 +386,6 @@ body {
 .special-card__2 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: special-card__2;
   -ms-grid-column-span: 3;
   grid-column: span 3;
@@ -399,114 +393,6 @@ body {
 }
 
 .special-card__3 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 3;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 3;
-  grid-area: special-card__3;
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
-  background: url("/img/main/special/suite-room.jpg") center center no-repeat;
-}
-
-.special-card__img {
-  border-radius: 15px;
-}
-
-.special-card__title {
-  margin-bottom: 15px;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  color: var(--textWhite);
-}
-
-.special-card__title_m {
-  font-size: 60px;
-  line-height: 60px;
-}
-
-.special-card__title_b {
-  min-width: 400px;
-}
-
-.special-card__price {
-  margin-bottom: 47px;
-  font-size: 20px;
-  line-height: 20px;
-  color: var(--textWhite);
-  opacity: 0.8;
-}
-
-.special-card__link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #ffcc66;
-}
-
-.special {
-  margin-bottom: 70px;
-}
-
-.special-cards {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 24px 1fr 24px 1fr 24px 1fr 24px 1fr 24px 1fr;
-  grid-template-columns: repeat(6, 1fr);
-  -ms-grid-rows: 258px 24px 258px;
-  grid-template-rows: 258px 258px;
-  gap: 24px;
-      grid-template-areas: "special-card__1 special-card__3" "special-card__2 special-card__3";
-  border-radius: 15px;
-}
-
-.special-card {
-  padding: 40px;
-  border-radius: 15px;
-}
-
-.special-card_m {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.special-card__1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: special-card__1;
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
-  background: url("/img/main/special/maldives.jpg") center center no-repeat;
-}
-
-.special-card__2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: special-card__2;
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
-  background: url("/img/main/special/сrete.jpg") center center no-repeat;
-}
-
-.special-card__3 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 3;
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 3;
@@ -726,5 +612,143 @@ body {
 .placement-card:hover .button {
   background-color: var(--hoverColor);
   color: var(--textWhite);
+}
+
+.tour-find {
+  margin-bottom: 70px;
+}
+
+.tour-find-container {
+  background: #e9e9e9;
+  border-radius: 15px;
+  padding: 45px;
+}
+
+.tour-find-title {
+  margin: 0;
+}
+
+.contacts {
+  margin-bottom: 40px;
+}
+
+.contacts-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 45px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.contacts-left {
+  max-width: 375px;
+  margin-right: 52px;
+}
+
+.contact-left__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.contacts-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 23px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts-address__title {
+  -ms-flex-preferred-size: 145px;
+      flex-basis: 145px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.contacts-address__desc {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contacts-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 23px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts-phone__title {
+  -ms-flex-preferred-size: 145px;
+      flex-basis: 145px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.contacts-phone__desc {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contacts-email {
+  padding: 25px 0 23px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts-email__title {
+  -ms-flex-preferred-size: 145px;
+      flex-basis: 145px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.contacts-email__desc {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #999999;
+}
+
+.contacts-schedule {
+  padding: 25px 0 23px 0;
+  margin-bottom: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.contacts-schedule__title {
+  -ms-flex-preferred-size: 145px;
+      flex-basis: 145px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.contacts-schedule__desc {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  line-height: 150%;
+}
+
+.contacts-create-map__link {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
