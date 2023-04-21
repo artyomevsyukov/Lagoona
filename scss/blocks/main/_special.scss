@@ -37,19 +37,19 @@
 .special-card__1 {
     grid-area: special-card__1;
     grid-column: span 3;
-    background: url("/img/main/special/maldives.jpg") center center no-repeat;
+    background: url("./img/main/special/maldives.jpg") center center no-repeat;
 }
 .special-card__2 {
     grid-area: special-card__2;
     grid-column: span 3;
-    background: url("/img/main/special/сrete.jpg") center center no-repeat;
+    background: url("./img/main/special/сrete.jpg") center center no-repeat;
 }
 
 .special-card__3 {
     grid-area: special-card__3;
     grid-column: span 3;
     // grid-row: span 2;
-    background: url("/img/main/special/suite-room.jpg") center center no-repeat;
+    background: url("./img/main/special/suite-room.jpg") center center no-repeat;
 }
 
 .special-card__img {

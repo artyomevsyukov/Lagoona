@@ -309,7 +309,7 @@ body {
 }
 
 .header__personal-account-link::before {
-  content: url("/img/header/header-arrow.svg");
+  content: url("./img/header/header-arrow.svg");
   position: absolute;
   top: 0;
   left: -28px;
@@ -394,7 +394,7 @@ body {
   grid-area: special-card__1;
   -ms-grid-column-span: 3;
   grid-column: span 3;
-  background: url("/img/main/special/maldives.jpg") center center no-repeat;
+  background: url("./img/main/special/maldives.jpg") center center no-repeat;
 }
 
 .special-card__2 {
@@ -403,7 +403,7 @@ body {
   grid-area: special-card__2;
   -ms-grid-column-span: 3;
   grid-column: span 3;
-  background: url("/img/main/special/сrete.jpg") center center no-repeat;
+  background: url("./img/main/special/сrete.jpg") center center no-repeat;
 }
 
 .special-card__3 {
@@ -413,7 +413,7 @@ body {
   grid-area: special-card__3;
   -ms-grid-column-span: 3;
   grid-column: span 3;
-  background: url("/img/main/special/suite-room.jpg") center center no-repeat;
+  background: url("./img/main/special/suite-room.jpg") center center no-repeat;
 }
 
 .special-card__img {
@@ -610,13 +610,13 @@ body {
   color: #ffffff;
 }
 .placement-card__placement-all::after {
-  content: url("/img/icons/arrow-w.png");
+  content: url("./img/icons/arrow-w.png");
   position: absolute;
   -webkit-transform: translate(8px, 4px);
           transform: translate(8px, 4px);
 }
 .placement-card__placement-all:hover::after {
-  content: url("/img/icons/arrow-b.jpg");
+  content: url("./img/icons/arrow-b.jpg");
 }
 
 .placement-card:hover .link {

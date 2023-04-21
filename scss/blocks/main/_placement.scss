@@ -65,12 +65,12 @@
     color: #ffffff;
 
     &::after {
-        content: url("/img/icons/arrow-w.png");
+        content: url("./img/icons/arrow-w.png");
         position: absolute;
         transform: translate(8px, 4px);
     }
     &:hover::after {
-        content: url("/img/icons/arrow-b.jpg");
+        content: url("./img/icons/arrow-b.jpg");
     }
 }
 
