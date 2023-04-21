@@ -3,19 +3,19 @@
 Версия: 1.0.3. */
 @font-face {
   font-family: "Muller";
-  src: url(/fonts/MullerRegular.woff2) format("woff2"), url(fonts/MullerRegular.woff) format("woff");
+  src: url("/fonts/MullerRegular.woff2") format("woff2"), url("fonts/MullerRegular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Muller";
-  src: url(./fonts/MullerMedium.woff2) format("woff2"), url(./fonts/MullerMedium.woff) format("woff");
+  src: url("./fonts/MullerMedium.woff2") format("woff2"), url("./fonts/MullerMedium.woff") format("woff");
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
   font-family: "Muller";
-  src: url(./fonts/MullerBold.woff2) format("woff2"), url(./fonts/MullerBold.woff) format("woff");
+  src: url("./fonts/MullerBold.woff2") format("woff2"), url("./fonts/MullerBold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
 }
@@ -309,7 +309,7 @@ body {
 }
 
 .header__personal-account-link::before {
-  content: url("./img/header/header-arrow.svg");
+  content: url("../img/header/header-arrow.svg");
   position: absolute;
   top: 0;
   left: -28px;
@@ -394,7 +394,7 @@ body {
   grid-area: special-card__1;
   -ms-grid-column-span: 3;
   grid-column: span 3;
-  background: url("./img/main/special/maldives.jpg") center center no-repeat;
+  background: url("../img/main/special/maldives.jpg") center center no-repeat;
 }
 
 .special-card__2 {
@@ -403,7 +403,7 @@ body {
   grid-area: special-card__2;
   -ms-grid-column-span: 3;
   grid-column: span 3;
-  background: url("./img/main/special/сrete.jpg") center center no-repeat;
+  background: url("img/main/special/сrete.jpg") center center no-repeat;
 }
 
 .special-card__3 {
@@ -413,7 +413,7 @@ body {
   grid-area: special-card__3;
   -ms-grid-column-span: 3;
   grid-column: span 3;
-  background: url("./img/main/special/suite-room.jpg") center center no-repeat;
+  background: url("/img/main/special/suite-room.jpg") center center no-repeat;
 }
 
 .special-card__img {
