@@ -3,19 +3,19 @@
 Версия: 1.0.3. */
 @font-face {
   font-family: "Muller";
-  src: url(/Lagoona/fonts/MullerRegular.woff2) format("woff2"), url(/Lagoona/fonts/MullerRegular.woff) format("woff");
+  src: url(./fonts/MullerRegular.woff2) format("woff2"), url(./fonts/MullerRegular.woff) format("woff");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "Muller";
-  src: url(./Lagoona/fonts/MullerMedium.woff2) format("woff2"), url(./Lagoona/fonts/MullerMedium.woff) format("woff");
+  src: url(./fonts/MullerMedium.woff2) format("woff2"), url(./fonts/MullerMedium.woff) format("woff");
   font-style: normal;
   font-weight: 500;
 }
 @font-face {
   font-family: "Muller";
-  src: url(Lagoona/fonts/MullerBold.woff2) format("woff2"), url(Lagoona/fonts/MullerBold.woff) format("woff");
+  src: url(./fonts/MullerBold.woff2) format("woff2"), url(./fonts/MullerBold.woff) format("woff");
   font-style: normal;
   font-weight: 700;
 }
