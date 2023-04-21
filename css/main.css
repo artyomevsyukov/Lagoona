@@ -767,6 +767,7 @@ body {
 }
 
 .footer-container {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -775,6 +776,12 @@ body {
   background: #333333;
   border-radius: 15px;
   max-width: 1200px;
+}
+
+.footer-bg-img {
+  position: absolute;
+  bottom: 0;
+  right: 177px;
 }
 
 .footer-left {

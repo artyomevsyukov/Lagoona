@@ -702,11 +702,24 @@
                         </div>
 
                         <div class="contacts-wrap-right">
-                            <img
-                                class="contacts-wrap-right__img"
-                                src="./img/main/contacts/contacts-img.jpg"
-                                alt="Lagoona office"
-                            />
+                            <picture>
+                                <source
+                                    type="image/webp"
+                                    srcset="
+                                        /img/main/contacts/contacts-img.webp    1x,
+                                        /img/main/contacts/contacts-img@2x.webp 2x
+                                    "
+                                />
+                                <img
+                                    class="contacts-wrap-right__img"
+                                    src="/img/main/contacts/contacts-img.jpg"
+                                    srcset="
+                                        /img/main/contacts/contacts-img.jpg    1x,
+                                        /img/main/contacts/contacts-img@2x.jpg 2x
+                                    "
+                                    alt="Lagoona office"
+                                />
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -714,7 +727,6 @@
             <!-- /.contacts -->
         </main>
         <footer class="footer">
-            <div class="footer-bg-img"></div>
             <div class="container footer-container">
                 <div class="footer-left">
                     <p class="footer-left__desc">
@@ -765,7 +777,7 @@
                     <a href="#!" class="footer-right__link"
                         ><img
                             class="footer-right__img"
-                            src="./img/footer/Component 25.svg "
+                            src="./img/footer/tripadvisor.svg "
                             alt=""
                     /></a>
                     <a href="#!" class="footer-right__link"
@@ -777,9 +789,12 @@
                     <a href="#!" class="footer-right__link"
                         ><img
                             class="footer-right__img"
-                            src="./img/footer/social.svg"
+                            src="./img/footer/vk.svg"
                             alt=""
                     /></a>
+                </div>
+                <div class="footer-bg-img">
+                    <img src="./img/footer/bg.svg" alt="bg" />
                 </div>
             </div>
         </footer>
