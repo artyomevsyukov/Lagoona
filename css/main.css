@@ -749,10 +749,9 @@ body {
 }
 
 .contacts-schedule__title {
-  -ms-flex-preferred-size: 145px;
-      flex-basis: 145px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 145px;
+          flex: 1 0 145px;
 }
 
 .contacts-schedule__desc {
